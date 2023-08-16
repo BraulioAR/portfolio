@@ -1,0 +1,250 @@
+---
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Braulio Rosario</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.jpeg" />
+  </head>
+  <body>
+    <header
+      class="relative"
+      style="position: fixed; top: 8; width: 100%; padding: 10px 0; text-align: justify-center; z-index: 1000; height:11%; transition: background-color 0.3s ease;"
+    >
+      <div
+        class="absolute left-1/2 -translate-x-1/2 flex gap-1 justify-center items-center top-8"
+      >
+        <div class="mx-16">
+          <a
+            class="font-REM text-4xl inline-block hover:contrast-150 hover:scale-105 transition"
+            href="/"
+            target="_self"
+            rel="noopener noreferrer">Home</a
+          >
+        </div>
+        <div class="mx-16">
+          <a
+            class="font-REM text-4xl inline-block hover:contrast-150 hover:scale-105 transition"
+            href="#projects"
+            target="_self"
+            rel="noopener noreferrer">Projects</a
+          >
+        </div>
+        <div class="mx-16">
+          <a
+            class="font-REM text-4xl inline-block hover:contrast-150 hover:scale-105 transition"
+            href="https://www.linkedin.com/in/braulio-rosario-rodriguez-815101218/"
+            target="_self"
+            rel="noopener noreferrer">Contact</a
+          >
+        </div>
+      </div>
+      <div class="left-5 relative w-56 bottom-7">
+        <img
+          style="height: 150px; width: 150px;"
+          class="animate-rotate-y animate-infinite animate-duration-[5000ms] animate-ease-linear left-0w-full h-full object-contain z-1000"
+          src="./public/logoBR.png"
+          alt="logo"
+        />
+      </div>
+    </header>
+  </body>
+  <main>
+    <div
+      class="flex justify-between relative h-[50vh] lg:h-screen pt-96 border-b border-white/10"
+    >
+      <div class="flex-1 mx-50 pl-28">
+        <h1 class="font-REM text-5xl">Hi! My name is Braulio Rosario</h1>
+        <h3 class="font-REM text-2xl pt-5">WELCOME TO MY PORTFOLIO</h3>
+      </div>
+      <div class="flex-1 ml-96 pt-4">
+        <a href="#projects">
+          <button
+            class="border border-black rounded-lg p-2 text-black bg-transparent hover:bg-gray-500 hover:scale-105 font-REM text-4xl"
+          >
+            CHECK MY PROJECTS
+          </button>
+        </a>
+      </div>
+    </div>
+    <section
+      id="projects"
+      class="flex justify-center relative h-[50vh] lg:h-screen pt-80px border-b border-white/10"
+    >
+      <div class="container">
+        <div class="box" id="box1" onclick="
+        toggleBox()
+        ">
+          <div
+            class="box-content flex flex-col gap-1 justify-center items-center"
+          >
+            <img
+              class="w-32 lg:w-64 h-auto hover:animate-rotate-y hover:animate-once hover:animate-duration-1000 hover:animate-ease-in hover:animate-alternate-reverse ml-3"
+              alt="Boxing Logo"
+              src="/boxinglogo.webp"
+            />
+            <h1 class="font-boxing text-5xl uppercase text-white font-bold">
+              <span
+                class="bg-clip-text text-transparent bg-gradient-to-b from-white via-gray-200 to-white inline-block leading-relaxed"
+                >Boxing Event</span
+              >
+              <span class="text-yellow-300">III</span>
+            </h1>
+          </div>
+        </div>
+        <div class="box hidden" id="box2">
+          <!-- Contenido del segundo div que se muestra al hacer clic -->
+          <h1 class="font-REM justify-center">
+            Boxing Event website featuring known Twitch streamers.
+          </h1>
+          <h2 class="font-REM justify-left">
+            Built with: Astro, JavaScript, Tailwind CSS, HTML, CSS
+          </h2>
+          <button class="font-REM justify-left pt-8" onclick="hideInfoBox()"
+            >Back</button
+          >
+          <a href="https://braulioar.netlify.app/" target="_blank">
+            <button class="font-REM justify-right ml-96 pt-8">Go</button>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Name<input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email<input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </div>
+  </footer>
+</html>
+
+<style is:global>
+  body {
+    background-image: url("/background.jpeg");
+  }
+
+  footer {
+    background-image: url("/footer.jpeg");
+  }
+
+  @font-face {
+    font-family: "REM";
+    src: url("./fonts/RobotoItalic.ttf");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Boxing";
+    src: url("./fonts/boxing.ttf");
+    font-weight: bold;
+  }
+
+  .font-REM {
+    font-family: "REM";
+  }
+
+  .font-boxing {
+    font-family: Boxing, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+  }
+
+  .box {
+    position: relative;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .box-content {
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+  }
+</style>
+
+<script>
+  //Scrolling down
+
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      const headerHeight = 60; // Ajusta este valor según la altura de tu encabezado
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition - headerHeight;
+      window.scrollBy({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    });
+  });
+
+  //Changing header from transparent to solid color for scroll
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const header = document.querySelector("header");
+    const headerHeight = header.offsetHeight;
+    const scrollTrigger = headerHeight * 1;
+
+    document.addEventListener("scroll", () => {
+      const scrolled = window.scrollY;
+      const opacityValue = scrolled > scrollTrigger ? 0.5 : 0;
+
+      header.style.backgroundColor = `rgba(154, 117, 135, ${opacityValue})`;
+    });
+  });
+
+  // Hiding and showing info box
+
+  function toggleBox() {
+    console.log("Toggle box clicked");
+    const box1 = document.getElementById("box1");
+    const box2 = document.getElementById("box2");
+    if (box2.classList.contains("hidden")) {
+      box1.style.transform = "translate(-110%, 0%)";
+      box2.style.transform = "translate(70%, 0%)";
+      box1.style.transition = "transform 1s ease";
+      box2.classList.toggle("hidden");
+    }
+  }
+
+  function hideInfoBox() {
+    const box1 = document.getElementById("box1");
+    box1.style.left = ""; // Restablecer la propiedad left
+    box1.style.top = ""; // Restablecer la propiedad top
+    box1.style.transform = ""; // Restablecer la propiedad transform
+    box1.style.zIndex = ""; // Restablecer la propiedad zIndex
+    const box2 = document.getElementById("box2");
+    box2.style.right = "";
+    box2.classList.add("hidden"); // Ocultar el box2
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const box1 = document.getElementById("box1");
+    box1.addEventListener("click", toggleBox);
+
+    const box2 = document.getElementById("box2");
+    box2.addEventListener("click", hideInfoBox);
+  });
+</script>
