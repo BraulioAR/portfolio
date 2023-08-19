@@ -1,47 +1,37 @@
-# Astro Starter Kit: Minimal
+# Braulio Rosario's Portfolio
 
-```
-npm create astro@latest -- --template minimal
-```
+![Portfolio Screenshot](/pscreenshot.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+Welcome to my portfolio! This repository showcases my personal website where I highlight my projects, skills, and contact information. Feel free to explore and get to know more about me and my work.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Table of Contents
 
-## 🚀 Project Structure
+- [About](#about)
+- [Projects](#projects)
+- [Contact](#contact)
 
-Inside of your Astro project, you'll see the following folders and files:
+## About
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+I am Braulio Rosario, a passionate web developer with a keen interest in creating responsive and user-friendly websites. My portfolio reflects my journey in the world of web development, demonstrating my skills and expertise in various technologies and tools.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+The website's design is clean and modern, providing visitors with an easy and enjoyable browsing experience. The layout is carefully crafted to showcase my projects, achievements, and skills.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Projects
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Boxing Event Website
 
-## 🧞 Commands
+![Boxing Event](/bscreenshot.png)
 
-All commands are run from the root of the project, from a terminal:
+The Boxing Event website is one of my featured projects. It was built using Astro, JavaScript, Tailwind CSS, HTML, and CSS. The website provides information about an upcoming boxing event, featuring well-known Twitch streamers as participants. Users can learn about the event details, streamers, and watch the event live on the website.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+You can check out the project [here](https://boxingevent.netlify.app/).
 
-## 👀 Want to learn more?
+## Contact
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to reach out to me if you have any questions, collaboration opportunities, or just want to say hello! You can contact me through the following channels:
+
+- Email: [bdressx@gmail.com](mailto:bdressx@gmail.com)
+- Phone: [+1 (829) 279-4451](tel:+18292794451)
+- LinkedIn: [Braulio Rosario](https://www.linkedin.com/in/braulio-rosario-rodriguez-815101218/)
+
+Thank you for visiting my portfolio. I look forward to connecting with you!
