@@ -1,6 +1,6 @@
 # Braulio Rosario's Portfolio
 
-![Portfolio Screenshot](/pscreenshot.png)
+![Portfolio Screenshot](public\pScreenshot.png)
 
 Welcome to my portfolio! This repository showcases my personal website where I highlight my projects, skills, and contact information. Feel free to explore and get to know more about me and my work.
 
@@ -20,7 +20,7 @@ The website's design is clean and modern, providing visitors with an easy and en
 
 ### Boxing Event Website
 
-![Boxing Event](/bscreenshot.png)
+![Boxing Event](public\bscreenshot.png)
 
 The Boxing Event website is one of my featured projects. It was built using Astro, JavaScript, Tailwind CSS, HTML, and CSS. The website provides information about an upcoming boxing event, featuring well-known Twitch streamers as participants. Users can learn about the event details, streamers, and watch the event live on the website.
 
