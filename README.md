@@ -20,7 +20,7 @@ The website's design is clean and modern, providing visitors with an easy and en
 
 ### Boxing Event Website
 
-![Boxing Event](public/bscreenshot.png)
+![Boxing Event](public/bScreenshot.png)
 
 The Boxing Event website is one of my featured projects. It was built using Astro, JavaScript, Tailwind CSS, HTML, and CSS. The website provides information about an upcoming boxing event, featuring well-known Twitch streamers as participants. Users can learn about the event details, streamers, and watch the event live on the website.
 
