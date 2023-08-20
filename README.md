@@ -32,6 +32,6 @@ Feel free to reach out to me if you have any questions, collaboration opportunit
 
 - Email: [bdressx@gmail.com](mailto:bdressx@gmail.com)
 - Phone: [+1 (829) 279-4451](tel:+18292794451)
-- LinkedIn: [Braulio Rosario](https://www.linkedin.com/in/braulio-rosario-rodriguez-815101218/)
+- LinkedIn: [Braulio Rosario](https://www.linkedin.com/in/braulio-rosario-815101218/)
 
 Thank you for visiting my portfolio. I look forward to connecting with you!
